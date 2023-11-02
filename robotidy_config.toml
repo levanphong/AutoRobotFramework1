@@ -1,0 +1,16 @@
+[tool.robotidy]
+transform = [
+   "NormalizeNewLines: test_case_lines=2",
+   "AlignSettingsSection",
+   "AlignTestCasesSection",
+   "AlignVariablesSection",
+   "MergeAndOrderSections",
+   "NormalizeSettingName",
+   "NormalizeTags: case=lowercase",
+   "OrderTags",
+]
+configure = [
+   "NormalizeNewLines: keyword_lines=1",
+   "NormalizeNewLines: section_lines=1",
+   "AlignTestCasesSection:widths=4"
+]

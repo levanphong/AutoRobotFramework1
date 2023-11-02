@@ -1,0 +1,5 @@
+AUTOMATION_FEED_PROD = "AUTOMATION_JOB_FEEDS_PROD"
+AUTOMATION_FEED_PROD_LOWE = "AUTOMATION_JOB_FEEDS_PROD_LOWE"
+MASTER_FEED_APPLICANT_FLOW = "Master Feed_Test Automation Applicant Flow"
+MASTER_FEED_MAPPING_OFF = "Master Feed_Test Automation Location Mapping Off"
+MASTER_FEED_GEOGRAPHIC_TARGETING = "Master Feed_Test Automation Geographic Targeting"

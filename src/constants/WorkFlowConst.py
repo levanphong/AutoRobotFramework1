@@ -1,0 +1,27 @@
+# COMMONS
+DEFAULT_JOURNEY = "Default Candidate Journey"
+CJ_WORKFLOW = "CJ Workflow"
+CUSTOM_WORKFLOW_TYPE = "Custom Workflow"
+WF_SEND_FORM = "WF Send Form"
+WF_SEND_APPLICATION = "WF Send Application"
+WF_SEND_ON_BOARDING = "WF Send OnBoarding"
+WF_TARGETING_RULE_SYSTEM_ATTRIBUTES = "System Attributes"
+WF_TARGETING_RULE_ASSIGNED_LOCATION = "Assigned Location"
+WF_TARGETING_RULE_GROUP = "Group"
+WF_MATCH_CONDITION_IS_ANY_OF = "Is any of"
+WF_MATCH_CONDITION_IS_NOT_ANY_OF = "Is not any of"
+WF_MATCH_CONDITION_IS = "Is"
+WF_MATCH_CONDITION_IS_NOT = "Is not"
+CA_ROLE_WORKFLOW = "Company_Admin Workflow"
+RATING_WORKFLOW = "rating_for_workflow"
+WF_CONVERSATION = "WF Conversation"
+#   ADD TASK
+CAPTURE_COMPLETE = "Capture Complete"
+CAPTURE_INCOMPLETE = "Capture Incomplete"
+ADD_CONDITION = "Add Condition"
+WF_REQUEST_RATING =    "Request Rating"
+WF_SEND_COMMUNICATION =    "Send Communication"
+
+#   ADD CONDIDTION CRITERIA
+CANDIDATE_FIRST_NAME = "Candidate First Name"
+CANDIDATE_LAST_NAME = "Candidate Last Name"

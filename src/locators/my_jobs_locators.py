@@ -1,0 +1,80 @@
+# BASE PAGE
+MY_JOB_JOB_FILTERING_BUTTON = "//*[contains(@data-testid, 'my_jobs_filter_dropdown')]//button"
+MY_JOB_JOB_FILTERING_JOB_STATUS_SPAN = "//*[contains(@data-testid, 'my_jobs_filter_content_popover')]//span[contains(text(), 'Job Status')]"
+MY_JOB_JOB_FILTERING_JOB_STATUS_OPTION = "//*[contains(@data-testid, 'my_jobs_filter_content_popover')]//span[contains(text(), '{}')]"
+MY_JOB_JOB_FILTERING_JOB_STATUS_ICON_DELETE = "//*[@data-testid='my_jobs_filter_content_popover']//i[contains(@class,'remove')]"
+MY_JOB_JOB_FILTERING_IS_SELECTED_ICON = "//*[contains(@data-testid, 'my_jobs_filter_dropdown')]//sup[contains(text(), '1')]"
+MY_JOB_SEARCH_JOB_TEXTBOX = "//*[contains(@data-testid, 'my_jobs_input_search')]//input"
+MY_JOB_ALL_LOCATIONS_DROPDOWN = "//*[contains(@data-testid, 'my_jobs_location_ats_selection') or contains(@data-testid, 'my_jobs_location_selection')]//div[contains(text(), 'All Locations')]"
+MY_JOB_ALL_LOCATIONS_DROPDOWN_PLACEHOLDER = "//span[contains(@class,'el-popover__reference-wrapper')]//div[text()='{}']"
+MY_JOB_ALL_LOCATIONS_DROPDOWN_OPTION = "//*[contains(@data-testid, 'my_jobs_location_ats_selection') or contains(@data-testid, 'my_jobs_location_selection')]//div[contains(text(), '{}')]"
+MY_JOB_ALL_LOCATION_SEARCH_FOR_LOCATION_TEXTBOX = "//*[contains(@placeholder, 'Search for locations')]"
+MY_JOB_ALL_LOCATION_SEARCH_RESULT = "//*[@role='tooltip' and not(contains(@style,'display: none'))]//*[normalize-space(text())='{}']"
+MY_JOB_ALL_LOCATION_ITEM = "//*[contains(@class, 'el-popper upiTO-PD')]//span[contains(text(), '{}')]"
+MY_JOB_ALL_LOCATION_JOB_SELECTED_PLACEHOLDER = "//div[contains(@class, 'el-tooltip__popper is-light') and contains(normalize-space(), '{}')]"
+MY_JOB_TOAST_MESSAGE_UPDATE_JOB_MESSAGE = "//*[contains(@class, 'toasted-container toast-snackbar bottom-center')]//div[(contains(@class, 'toasted-primary default') and contains(normalize-space(), '{} has been updated!')) or (contains(@class, 'toasted-primary default') and contains(normalize-space(), '{} has been posted!')) ]"
+MY_JOB_ALL_LOCATION_EXPAND_LOCATION_BY_COUNTRY = "//span[contains(text(), '{}')]//parent::div//following-sibling::div//i[contains(@class, 'icon-resubscribe')]"
+MY_JOB_ALL_LOCATION_EXPAND_LOCATION_BY_CITY = "//*[contains(@class, 'icon-location')]//following-sibling::span[contains(text(), '{}')]"
+MY_JOB_ALL_LOCATION_EXPAND_LOCATION_BY_POSTING_TYPE = "//*[contains(@class, 'icon-location-user')]//following-sibling::span[contains(text(), '{}')]"
+MY_JOB_ALL_LOCATION_EXPAND_LOCATION_BY_JOB_ID = "//*[contains(@class, 'icon-job-id')]//following-sibling::span"
+MY_JOB_ALL_LOCATION_EXPAND_LOCATION_BY_BRAND = "//*[contains(@class, 'icon-tag-type')]//following-sibling::span"
+MY_JOB_ITEM_TOOLTIP_NUMBER_OF_SHIFT = "//div[text()='{} Open Shifts']"
+MY_JOB_LIST_LOCATION_BY_NAME = "//*[contains(@class, 'el-select-tree__item')]"
+MY_JOB_MAIN_SECTION = "//main[contains(@class,'el-main')]//div[@data-testid='my_job_item_0']/parent::div"
+MY_JOB_CLOSE_MODAL_BUTTON = "//i[contains(@class,'el-dialog__close')]"
+MY_JOB_CLOSE_MODAL_BOX_MESSAGE = "//div[contains(@class,'el-message-box__message')]//p"
+
+# BASE PAGE / MY JOB DETAIL
+MY_JOB_DETAIL_JOB_ITEM = "(//*[contains(@data-testid, 'my_job_item_0')]//span[contains(text(), '{}')])[last()]"
+MY_JOB_TOOLTIP_META_DATA = "//div[@role='tooltip' and text()='{}']"
+MY_JOB_DETAIL_STATUS_JOB_OFF_TOGGLE = "//*[normalize-space(text())='{}']/parent::div/following-sibling::*//*[contains(@data-testid, 'my_job_item_toggle_switch')]//span[contains(@class, 'icon-remove')]"
+MY_JOB_DETAIL_STATUS_JOB_ON_TOGGLE = "//*[normalize-space(text())='{}']/parent::div/following-sibling::*//*[contains(@data-testid, 'my_job_item_toggle_switch')]//span[contains(@class, 'icon-check2')]"
+MY_JOB_DETAIL_POST_JOB_BUTTON_TYPE = "//*[contains(@class, 'el-button--primary')]//span[contains(text(), '{}')]"
+MY_JOB_DETAIL_POST_JOB_SHIFT_TOOGLE = "//div[@name='shift']//span[text()='{}']"
+MY_JOB_DETAIL_POST_JOB_SHIFT_ACTIVED = "//i[contains(@class,'icon-check2')]//following-sibling::span[text()='{}']"
+MY_JOB_DETAIL_CANCEL_BUTTON = "(//div[contains(@class, 'el-dialog__footer')]//button[contains(@class, 'el-button--default')]//span[contains(text(), 'Cancel')])[last()]"
+MY_JOB_TOTAL_JOB_BY_LOCATION = "//*[contains(@data-testid, 'my_job_item_0')]"
+MY_JOB_DETAILS_ESCAPE_ICON = "//span[normalize-space(text())='{}']//parent::div//following-sibling::div//descendant::i[contains(@class,'icon-menu')]"
+MY_JOB_DETAILS_COPY_JOB_APPLY_LINK = "(//*[contains(@data-testid, 'my_job_dropdown_url_item_0')])[last()]"
+MY_JOB_DETAILS_VIEW_JOB_DESCRIPTION = "(//*[contains(@data-testid, 'my_job_dropdown_action_item_1')])[last()]"
+MY_JOB_DETAILS_EDIT_JOB = "(//*[contains(@data-testid, 'my_job_dropdown_action_item_2')])[last()]"
+MY_JOB_DETAILS_VIEW_JOB_DESCRIPTION_MODAL = "//span//preceding::div[contains(@class, 'el-dialog__header')]//following-sibling::div[contains(@class, 'el-dialog__body')]"
+MY_JOB_THRESHOLD_NUMBER_TEXTBOX = "//input[contains(@placeholder, 'ex: 6')]"
+MY_JOB_DETAIL_TURN_ON_JOB_ICON = "//*[contains(@data-testid, 'my_job_item_toggle_switch')]//span"
+MY_JOB_DETAIL_CONFIGURE_BUTTON = "//*[contains(@class, 'icon-warning')]//following::div//span[contains(normalize-space(), 'Configure')]"
+MY_JOB_DETAIL_CANDIDATE_REACHED_HIRING_GOAL = "//*[contains(@data-testid, 'my_job_item_0')]//div[contains(@class, 'el-tooltip')]"
+MY_JOB_DETAIL_THRESHOLD_NUMBER_DEFAULT = "//*[contains(@data-testid, 'my_job_item_0')]//div[contains(text(), '{}')]"
+MY_JOB_DETAIL_CANDIDATE_NUMBER = "//span[contains(text(),'{}')]//ancestor::div[contains(@data-testid, 'my_job_item_0')]//following-sibling::div[contains(text(),'Candidates')]"
+MY_JOB_DETAIL_CAPTURE_COMPLETE_TEXT = "//*[contains(text(),'Job will close after')]//parent::div"
+
+# BASE PAGE / MY JOB DETAIL / EDIT JOB
+MY_JOB_DETAIL_EDIT_JOB_DISABLE_BUTTON = "//*[contains(@data-testid, 'my-job-modal')]//button[contains(@class, 'el-button--primary is-disabled')]"
+
+
+# ------------ OLD LOCATORS SECTION ----------
+# BASE PAGE
+JOB_LOCATION_DROPDOWN = "//*[contains(@data-testid, 'my_jobs_location_ats_selection') or contains(@data-testid, 'my_jobs_location_selection')]//*[contains(@class,'chevron-down')]"
+JOB_LOCATION_SEARCH_TEXT_BOX = "//*[@placeholder='Search for locations']"
+JOB_LOCATION_AREA_NAME = "//i[contains(@class,'icon-folder-open')]//following-sibling::span//span[normalize-space(text())='My job area']"
+JOB_LOCATION_VALUE = "//*[@role='tooltip' and not(contains(@style,'display'))]//*[normalize-space(text())='{}']"
+JOB_LOCATION_TEXT = "(//*[contains(@data-testid, 'my_jobs_location_ats_selection') or @data-testid='my_jobs_location_selection']//*[contains(@class,'icon-location')]//following-sibling::*)[last()]"
+# JOB_FOR_ACTIVE_TOGGLE = "//div[normalize-space(text())='{}']//parent::div//following-sibling::div//label"
+JOB_FOR_ACTIVE_TOGGLE = "//*[normalize-space(text())='{}']//ancestor::*//label[@data-testid='my_job_item_toggle_switch']//span"
+SHIFT_NAME_OF_JOB = "//div[contains(text(),'{}')]/ancestor::div[contains(@class,'block-container block-job')]//label[contains(text(),'{}')]"
+CONFIRM_CHANGE_MY_JOB = "//button[contains(@class,'btn-save pull-right')]"
+JOB_APPLY_INTERNAL_LINK = "//div[contains(@class,'text-job-name') and normalize-space(text())='{}']/ancestor::div[contains(@class,'block-container block-job')]//div[contains(@class,'btnCopyJobLink')]"
+
+# BASE PAGE > Search job result
+JOB_SORT_DESCRIPTION = "//*[contains(@class,'thresholds') and not(contains(@class,'hidden'))]//*[contains(@class,'candidate-volume-thresholds__config')]//*[contains(@class,'title')]"
+JOB_THRESHOLDS_NOTIFY = "//*[contains(@class,'icon-warning') and not(contains(@class,'hidden'))]//following-sibling::span"
+JOB_THRESHOLDS_CLOSE_ICON = "//*[contains(@class,'icon-warning') and not(contains(@class,'hidden'))]//following-sibling::i"
+JOB_THRESHOLDS_CONFIG_BUTTON = "//*[contains(@class,'thresholds__config')]//*[contains(@class,'btn-edit-thresholds')]"
+JOB_BLOCK = "//*[contains(@class,'block-job')]"
+
+# BASE PAGE > Search job result > Edit job thresholds popup
+JOB_THRESHOLDS_NUMBER_OF_CANDIDATE_TEXTBOX = "(//*[@role='dialog'])[last()]//input"
+JOB_THRESHOLDS_SAVE_BUTTON = "(//*[@role='dialog'])[last()]//button[contains(@class,'primary')]"
+
+# ALERT ASSIGN TO JOB DATA PACKAGE
+CANCEL_BUTTON_MODAL_MY_JOB = "(//button[contains(@class, 'button--default')]//*[contains(text(),'Cancel')])[last()]"
+ASSIGN_JOB_DATA_BUTTON_MODAL_MY_JOB = "//button[contains(@class, 'button--primary')]//*[contains(text(),'Assign Job Data')]"

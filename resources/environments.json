@@ -1,0 +1,218 @@
+{
+  "STG": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://stg.paradox.ai",
+    "apiHost": "https://stgapi.paradox.ai/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "https://demostg.paradox.ai",
+    "shortenURL": ""
+  },
+    "LTS_STG": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://ltsstg.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "https://demostg.paradox.ai",
+    "shortenURL": ""
+  },
+  "OLIVIA": {
+    "gmail": "olivia.automation@paradox.ai",
+    "app_password": "ejvmakcpppsvqpjm",
+    "siteURL": "https://olivia.paradox.ai",
+    "apiHost": "https://api.paradox.ai/api/v1/",
+    "basicToken": "Basic Tm90aWZpY2F0aW9uczo5MjA4NDg=",
+    "saleDemoDomain": "https://demo.paradox.ai",
+    "shortenURL": "https://oli.vi"
+  },
+  "MCHIRE": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://mchire.com",
+    "apiHost": "https://api.mchire.com/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "https://demo.mchire.com",
+    "shortenURL": "https://mchi.re"
+  },
+  "STG_MCHIRE": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://stg.mchire.com",
+    "apiHost": "https://stg.mchire.com/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "BIRDDOGHR": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://birddoghr.paradox.ai",
+    "apiHost": "https://birddoghrapi.paradox.ai/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "https://birddoghrdemo.paradox.ai",
+    "shortenURL": ""
+  },
+  "PEPSI": {
+    "gmail": "olivia.automation@paradox.ai",
+    "app_password": "ejvmakcpppsvqpjm",
+    "siteURL": "https://pepsi.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "ARAMARK": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://aramark.paradox.ai",
+    "apiHost": "https://aramarkapi.paradox.ai/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "LMCO": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://lockheed.paradox.ai",
+    "apiHost": "https://lockheedapi.paradox.ai/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "DARDEN": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://darden.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "https://dardendemo.paradox.ai",
+    "shortenURL": ""
+  },
+  "TEST": {
+    "gmail": "olivia.automation@paradox.ai",
+    "app_password": "ejvmakcpppsvqpjm",
+    "siteURL": "https://test.paradox.ai",
+    "apiHost": "https://testapi.paradox.ai/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "https://demostg.paradox.ai",
+    "shortenURL": ""
+  },
+  "DEV": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://dev.paradox.ai",
+    "apiHost": "https://devapi.paradox.ai/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "DEV2": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://dev2.paradox.ai",
+    "apiHost": "https://devapi.paradox.ai/api/v1/",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "LOWES": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://lowes.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "https://lowesdemo.paradox.ai",
+    "shortenURL": ""
+  },
+  "LOWES_STG": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://lowesstg.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "SMASHFLY": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://www.smashfly.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "STG_SMASHFLY": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://stg.smashfly.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "STGENT": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://stgent.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "UNILEVER": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://unilever.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "ADVANTAGE": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://advantage.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "https://advantagedemo.paradox.ai",
+    "shortenURL": ""
+  },
+  "PLG": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://assistant.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "REGIS": {
+    "gmail": "olivia.automation1@paradox.ai",
+    "app_password": "tqdjdwlqxgbkhwds",
+    "siteURL": "https://regis.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+  "FEDEXSTG": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://fedexstg.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  },
+    "FEDEX": {
+    "gmail": "olivia.automation2@paradox.ai",
+    "app_password": "cukqmoeljmacgezw",
+    "siteURL": "https://fedex.paradox.ai",
+    "apiHost": "",
+    "basicToken": "",
+    "saleDemoDomain": "",
+    "shortenURL": ""
+  }
+}

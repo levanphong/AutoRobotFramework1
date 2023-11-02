@@ -1,0 +1,5 @@
+MESSAGE_ADD_FEEDBACK = "Got it! Please provide us with any additional feedback"
+MESSAGE_PLEASE_ADD_FEEDBACK = "Please add written feedback."
+MESSAGE_THANK_YOU_FEEDBACK = "Thank you for your invaluable feedback!"
+MESSAGE_PLEASE_ADD_OVERALL = "Please provide us with any overall feedback."
+MESSAGE_PLEASE_ADD_FEEDBACK_WIDGET = "Please add additional feedback"

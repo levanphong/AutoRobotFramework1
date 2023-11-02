@@ -1,0 +1,93 @@
+# BASE PAGE
+ADD_NEW_COURSE_BUTTON = "//span[contains(@class, 'icon-plus')]/parent::button"
+COURSES_LIST = "//div[contains(@class, 'list-courses')]"
+COURSE_ITEM_NAME_VALUE = "//div[contains(@class, 'course-item')]//div[contains(@class, 'title') and contains(text(), '{}')]"
+COURSE_ECLIPSE_ICON = "//div[contains(text(),'{}')]/parent::div/parent::div//span[contains(@class, 'icon-menu')]"
+COURSE_ECLIPSE_MENU_EDIT_BUTTON = "//div[contains(text(),'{}')]/parent::div/parent::div//div[contains(@class, 'item-edit')]"
+COURSE_ECLIPSE_MENU_ARCHIVE_BUTTON = "//div[contains(text(),'{}')]/parent::div/parent::div//div[contains(@class, 'item-archive')]"
+COURSE_ECLIPSE_MENU_DUPLICATE_BUTTON = "//div[contains(text(),'{}')]/parent::div/parent::div//div[contains(@class, 'item-archive')]"
+COURSE_NAME_LABEL = "//div[contains(text(),'{}')]/parent::div/parent::div"
+COURSE_SEARCH_TEXT_BOX = "//input[@placeholder='Search courses']"
+MENU_BUTTON = "//span[contains(@class, 'back-btn')]//span[contains(text(), 'Menu')]"
+
+# BASE PAGE/COURSE PAGE
+ADD_NEW_COURSE_NAME_TEXT_BOX = "//label[contains(text(), 'Course Name (Required)')]/following-sibling::input"
+CREATE_COURSE_BUTTON = "//button[contains(text(), 'Create Course')]"
+CANCEL_COURSE_BUTTON = "//button[contains(text(), 'Create Course')]/parent::div/button[contains(text(), 'Cancel')]"
+RED_ALERT_MESSAGE = "//span[contains(@class, 'close-jq-toast-single')]"
+COURSE_PAGE_LIST = "//span[text()={}]/parent::div/parent::div/following-sibling::ul"
+COURSE_PAGE_START_DAY_ACTIVE_INPUT = "//div[contains(@class, 'active')]//label[contains(@for, {})]"
+COURSE_PAGE_START_TIME_DEFAULT_INPUT = "//select[contains(@class, 'form-control')]"
+COURSE_PAGE_UPLOAD_FILE_INPUT = "//input[contains(@class, 'dz-hidden-input')]"
+
+# BASE PAGE / Archive course modal
+COURSE_ECLIPSE_ARCHIVE_MENU_ARCHIVE_BUTTON = "//h4[contains(text(), 'Archive Course')]/parent::div/parent::div//button[contains(text(), 'Archive')]"
+COURSE_ECLIPSE_ARCHIVE_MENU_CANCEL_BUTTON = "//h4[contains(text(), 'Archive Course')]/parent::div/parent::div//button[contains(text(), 'Cancel')]"
+COURSE_ECLIPSE_ARCHIVE_MENU_X_BUTTON = "//h4[contains(text(), 'Archive Course')]/parent::div/parent::div//button[contains(text(), '×')]"
+COURSE_ARCHIVE_FORM = "//div[contains(@class, 'course-archive-confirm')]//div[contains(@class, 'modal-dialog')]"
+
+# BASE PAGE/ARCHIVE COURSE PAGE
+ARCHIVE_COURSE_PAGE = "//*[contains(@class, 'nav-item_content')]//span[contains(text(), 'Archived Courses')]"
+
+# DETAIL COURSE PAGE / LESSON
+LESSON_BUILDER_GROUP_OPTION = "//span[contains(@class, 'element-name') and contains(text(), '{}')]"
+LESSON_BUILDER_GROUP_OPTION_ADD_BUTTON = "//span[contains(@class, 'element-name') and contains(text(), '{}')]/following-sibling::button"
+LESSON_ADD_BUTTON = "//button/child::span[contains(text(), 'Add Lesson')]"
+
+# DETAIL COURSE PAGE
+DETAIL_COURSE_PAGE_TAB_HEADER = "//li[contains(@class, 'nav-item')]/a[@data-toggle='tab' and contains(text(), '{}')]"
+DETAIL_COURSE_QUESTION_ECLIPSE_ICON = "//div[contains(@class, 'item-content row')]//div[contains(text(),'{}')]//parent::div//span[contains(@class, 'cursor-pt icon icon-menu')]"
+DETAIL_COURSE_RESPONSE_ITEM = "//div[contains(@class, 'content vb vb-invisible')]//div[contains(@class,'item-content row')]//div[ contains(text(), '{}')]"
+DETAIL_COURSE_RESPONSE_LIVE_STATUS = "//div[contains(@class, 'item-content-wrapper')]//div[contains(text(),'{}')]//parent::div//div[contains(text(),'Live')]"
+DETAIL_COURSE_RESPONSE_NOT_STATUS = "//div[contains(@class, 'item-content-wrapper')]//div[contains(text(),'{}')]//parent::div//div[contains(text(),'Not answered')]"
+DETAIL_COURSE_RESPONSE_CHANGE_LIVE_STATUS_BUTTON = "//div[contains(@class, 'item-content row')]//div[contains(text(),'{}')]//parent::div//span[contains(text(),'Change to Not Live')]"
+DETAIL_COURSE_RESPONSE_CHANGE_STATUS_BUTTON = "//div[contains(@class, 'item-content row')]//div[contains(text(),'{}')]//parent::div//span[contains(text(), 'Change to Live')]"
+DETAIL_COURSE_RESPONSE_QUESTION_TITLE = "//div[contains(@class, 'cms-header__title')]//span[contains(text(),'Course')]//i[contains(@class, 'icon-chevron-right')]"
+DETAIL_COURSE_RESPONSE_QUESTION_COURSE_NAME_TITLE = "//div[contains(@class, 'cms-header__title')]//span[contains(text(),'{}')]"
+DETAIL_COURSE_RESPONSE_QUESTION_COURSE_TITLE = "//div[contains(@class,'cms-header__title')]//i[contains(@class, 'icon-chevron-right')]/parent::span/following-sibling::span[contains(text(),'{}')]"
+DETAIL_COURSE_RESPONSE_QUESTION_CONTENT = "//div[contains(@class, 'content-box')]//div[contains(@class, 'emojionearea-editor')]"
+DETAIL_COURSE_RESPONSE_QUESTION_BACK_BUTTON = "//div[contains(@class, 'cms-header__btn-back')]//span[contains(@class, 'icon-arrow-left')]"
+DETAIL_COURSE_RESPONSE_HASHTAG_ICON = "//div[contains(@class, 'message-tools')]/child::div[last()]//span[contains(@class, 'icon-hashtag')]"
+DETAIL_COURSE_RESPONSE_HASHTAG_TEXT = "//div[contains(@class, 'answer-editor-ctn')]/child::div[last()]//li//span[last()]"
+DETAIL_COURSE_RESPONSE_SAVE_BUTTON = "//div[contains(@class, 'cms-header__buttons')]//button[contains(@class, 'btn btn-primary')]"
+
+# LESSON BUILDER
+LESSON_BUILDER_MESSAGE_BLOCK_NUMBER = "//div[contains(@class, 'lesson-section message-section')]"
+LESSON_BUILDER_ADD_MESSAGE_TEXT_BOX = "//div[contains(@class, 'builder-editor')]/child::div[last()]//div[contains(@class, 'message-content-box')]"
+LESSON_BUILDER_ADD_MESSAGE_TEXT = "//div[contains(@class, 'builder-editor')]/child::div[last()]//div[contains(@class, 'emojionearea-editor')]"
+LESSON_BUILDER_ADD_MESSAGE_HIGHLIGHT_TEXT = "//div[contains(@class, 'builder-editor')]/child::div[last()]//div[contains(@class, 'emojionearea-editor')]//span[contains(@class, 'highlight')]"
+LESSON_BUILDER_ADD_MESSAGE_EMOJI_ICON = "//div[contains(@class, 'builder-editor')]/child::div[last()]//span[contains(@class, 'icon-emoji')]"
+LESSON_BUILDER_ADD_MESSAGE_HASHTAG_ICON = "//div[contains(@class, 'builder-editor')]/child::div[last()]//span[contains(@class, 'icon-hashtag')]"
+LESSON_BUILDER_ADD_MESSAGE_COUNTER = "//div[contains(@class, 'builder-editor')]/child::div[last()]//span[contains(@class, 'counter')]"
+LESSON_BUILDER_ADD_MESSAGE_EMOJI_ICON_VALUE = "//div[contains(@class, 'builder-editor')]/child::div[last()]//div[contains(@name, 'smileys_people')]//i[contains(@data-name,'{}')]"
+LESSON_BUILDER_ADD_ICON_IN_MESSAGE_TEXT = "//div[contains(@class, 'builder-editor')]/child::div[last()]//div[contains(@class, 'emojionearea-editor')]//img"
+LESSON_BUILDER_ADD_MESSAGE_EMOJI_ICON_MENU = "//div[contains(@class, 'builder-editor')]/child::div[last()]//div[contains(@class, 'emojionearea-emojis-list')]"
+LESSON_BUILDER_ADD_MESSAGE_HASHTAG_TEXT = "//div[contains(@class, 'builder-editor')]/child::div[last()]//li//span[last()]"
+LESSON_BUILDER_ADD_MESSAGE_HASHTAG_TEXT_VALUE = "//div[contains(@class, 'builder-editor')]/child::div[last()]//li//span[contains(text(),'{}')][last()]"
+LESSON_BUILDER_ADD_MESSAGE_DELETE_BUTTON = "//div[contains(@class, 'builder-editor')]/child::div[last()]//button//i[contains(@class, 'icon-delete2')]"
+LESSON_BUILDER_ADD_MESSAGE_EDIT_BUTTON = "//div[contains(@class, 'builder-editor')]/child::div[last()]//button//i[contains(@class, 'icon-edit')]"
+LESSON_BUILDER_ADD_MESSAGE_DELETE_MODAL_BUTTON = "//div[contains(@class, 'modal-footer')]//button[text()='Delete']"
+LESSON_BUILDER_ADD_IMAGE_UPLOAD_FILE_INPUT = "//input[contains(@class, 'dz-hidden-input')]"
+
+#  LESSON BUILDER / NEW QUESTION
+LESSON_BUILDER_ADD_QUESTION_MODAL = "//div[contains(@class, 'ai-sidebar-inner-content')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADD_OPTION = "//button[contains(@class, ' btn-add-option')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_NUMBER = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//span"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_CONTENT = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//textarea[contains(@class, 'answer-text-input')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_CONTENT_VALUE = ""
+LESSON_BUILDER_ADD_QUESTION_MODAL_CANCEL_BUTTON = "//button[contains(@class, 'btn-close-drawer')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_SAVE_BUTTON = "//button[contains(@class, 'btn-next')]"
+LESSON_BUILDER_DISCARD_QUESTION_NEVERMIND_BUTTON = "//button[contains(@class, 'cancel-btn') and contains(text(), 'Nevermind')]"
+LESSON_BUILDER_DISCARD_QUESTION_DISCARD_BUTTON = "//button[contains(@class, 'ok-btn') and contains(text(), 'Discard')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_CHAT_ICON = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//i[contains(@class, 'icon-text')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_CHAT_ICON_ACTIVE = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//div[contains(@class, 'answer-action-btn active')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_DELETE_ICON = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//i[contains(@class, 'icon-delete')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_TOOLTIP_MESSAGE = "//div[contains(@class, 'tooltip')]//div[contains(@class,'tooltip-inner') and contains(text(), '{}')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_AVATAR = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//div[contains(@class, 'ai-avatar')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_TEXTAREA = "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//textarea[contains(@class, 'answer-response-input')  and contains(@placeholder,'{}')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_ANSWER_TEXTAREA_VALUE= "//div[contains(@class, 'answer-group')]/child::div[contains(@class, 'box')][last()]//textarea[contains(@class, 'answer-response-input')]"
+LESSON_BUILDER_ADD_QUESTION_MODAL_ADDED_QUESTION_TEXTAREA = "//textarea[contains(@class, 'box-input question-text-input')]"
+
+#LESSON BUILDER / EDIT QUESTION
+LESSON_BUILDER_EDIT_QUESTION_MODAL = "//div[contains(@id, 'lesson-sidebar')]//div[contains(@class, 'ai-sidebar-header-title') and contains(text(),'Edit Question')]"

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope version="01.00">
+    <Sender>
+        <Id></Id>
+        <Credential>25545</Credential>
+    </Sender>
+    <Recipient>
+        <Id>http://server123.testcompany.com:8044/b2bhttp/inbound/kenexa</Id>
+    </Recipient>
+    <!-- Target URL where data will be sent -->
+    <TransactInfo transactType="data">
+        <TransactId>HSCAND20681</TransactId>
+        <TimeStamp>2020-10-21 17:32 PM</TimeStamp>
+    </TransactInfo>
+    <Packet>
+        <PacketInfo packetType="data">
+            <PacketId>1</PacketId>
+            <Action>SET</Action>
+            <Manifest>CVSPARADOX_CANDIDATE</Manifest>
+        </PacketInfo>
+        <Payload><![CDATA[<?xml version="1.0"?>
+<CVSPARADOX_CANDIDATE>
+	<CANDIDATEID>%s</CANDIDATEID>
+	<REQUISITIONNUMBER></REQUISITIONNUMBER>
+	<BRREQNUMBER>100044BR</BRREQNUMBER>
+	<JOBCODE>A01238</JOBCODE>
+	<STATUS>Confirm Start Date - Hourly (External)</STATUS>
+	<EMP_ID_TEXT>12445</EMP_ID_TEXT>
+	<DISTRICT>8</DISTRICT>
+	<REGION>62</REGION>
+	<STORE>%s</STORE>
+	<EMAIL>%s</EMAIL>
+	<FIRSTNAME>%s</FIRSTNAME>
+	<LASTNAME>%s</LASTNAME>
+	<HOMEPHONE>%s</HOMEPHONE>
+	<START_DATE>%s</START_DATE>
+	<ST_PRESCREEN_ACCESS></ST_PRESCREEN_ACCESS>
+	<RecruiterEmail>%s</RecruiterEmail>
+    <PS_DEPT_ID></PS_DEPT_ID>
+	<JOB_TITLE>Product Manager</JOB_TITLE>
+	<AREA></AREA>
+</CVSPARADOX_CANDIDATE>
+]]></Payload>
+    </Packet>
+</Envelope>
